@@ -1,0 +1,37 @@
+    .blog-post {
+        margin-bottom: 20px;
+    }
+
+    .blog-post .title {
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    .blog-post .author {
+        font-size: 14px;
+        color: #777;
+    }
+
+    .blog-post .date {
+        font-size: 14px;
+        color: #777;
+    }
+
+    .blog-post .content {
+        margin-top: 10px;
+        font-size: 16px;
+        color: #555;
+    }
+
+    .blog-post .read-more {
+        display: inline-block;
+        margin-top: 10px;
+        font-size: 14px;
+        color: #007bff;
+        text-decoration: none;
+    }
+
+    .blog-post .read-more:hover {
+        text-decoration: underline;
+    }

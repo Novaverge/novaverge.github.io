@@ -1,0 +1,382 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, maximum-scale=1">
+  <title>Novaverge — AI, Observability, and Software Engineering</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+  <link href="css/animate.css" rel="stylesheet" type="text/css">
+
+  <!--[if lt IE 9]>
+    <script src="js/respond-1.1.0.min.js"></script>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/html5element.js"></script>
+  <![endif]-->
+
+</head>
+
+<body>
+
+  <!--Header_section-->
+  <header id="header_wrapper">
+    <div class="container">
+      <div class="header_box">
+        <h1 class="logo" style="font-family: 'Quicksand', sans-serif; font-weight: 900; font-style: bold;">
+          <a href="index.html" style="color: rgb(0, 0, 0);">nova</a>
+        </h1>
+        <h1 class="logo" style="font-family: 'Quicksand', sans-serif; font-weight: 900; font-style: bolder;">
+          <a href="index.html" style="color: rgb(38, 96, 163);">
+            v<span
+              style="display: inline-block; transform: rotate(-30deg); margin-left: -1px;margin-right: 2px;">e</span>rg<span
+              style="display: inline-block; transform: rotate(-30deg); margin-left: -2px;">e</span>
+          </a>
+        </h1>
+
+        <nav class="navbar navbar-inverse" role="navigation">
+          <div class="navbar-header">
+            <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+              <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span
+                class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          </div>
+          <div id="main-nav" class="collapse navbar-collapse navStyle">
+            <ul class="nav navbar-nav" id="mainNav">
+              <li><a href="#service" class="scroll-link">Services</a></li>
+              <li><a href="#Portfolio" class="scroll-link">Portfolio</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="#aboutUs" class="scroll-link">About Us</a></li>
+              <li><a href="#contact" class="scroll-link"><u>GET IN TOUCH</u></a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!--Header_section-->
+
+  <!--Hero_Section-->
+  <section id="hero_section" class="top_cont_outer">
+    <div class="video-container">
+      <video id="heroVideo" autoplay muted loop playsinline class="bg-video" onplay="this.playbackRate=3.0">
+        <source src="https://cdn.pixabay.com/video/2019/05/06/23355-334950213_large.mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+    </div>
+    <!-- sripriyadesai5@gmail.com -->
+    <div class="hero_content">
+      <div class="hero_wrapper">
+        <div class="container">
+          <div class="hero_section">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="top_left_cont zoomIn wow animated">
+                  <h1>
+                    Production <span id="cyclic-terms"
+                      style="background-color: rgb(19, 48, 82);border-radius: 0.2cap; padding-left: 0.2cap; padding-right: 0.2cap"></span><br>—
+                    engineered for reliability, observability, and scale.
+                  </h1>
+                  <style>
+                    #cyclic-terms {
+                      transition: opacity 0.5s ease-in-out;
+                    }
+                  </style>
+                  <script>
+                    document.addEventListener("DOMContentLoaded", function () {
+                      var terms = ["AI", "observability", "machine learning", "cloud", "data"];
+                      var index = 0;
+                      var el = document.getElementById("cyclic-terms");
+                      el.textContent = terms[index];
+
+                      setInterval(function () {
+                        el.style.opacity = 0;
+                        setTimeout(function () {
+                          index = (index + 1) % terms.length;
+                          el.textContent = terms[index];
+                          el.style.opacity = 1;
+                        }, 200);
+                      }, 1200);
+                    });
+                  </script>
+                  </h2>
+                  <p>We design and deliver production-grade scalable software, AI systems, ML platforms, and secure
+                    cloud
+                    infrastructure for organizations that demand measurable outcomes.</p>
+                  <!--<a href="blog.html" class="read_more2">Read more</a> </div>-->
+                  <a href="https://calendly.com/" class="read_more2">Book meeting with us</a>
+                </div>
+              </div>
+              <div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!--Hero_Section-->
+
+
+  <!--Service-->
+  <section id="service">
+    <div class="container">
+      <h2>Services</h2>
+      <div class="service_wrapper">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="service_block">
+              <div class="service_icon delay-03s animated wow  zoomIn"> <span><img style="border-radius: 50%;"
+                    src="/img/s9sxehzl.png"></span>
+              </div>
+              <h3 class="animated fadeInUp wow">AI & Agentic Systems</h3>
+              <p class="animated fadeInDown wow">Architecting LangChain and LangGraph production workflows, including
+                typed StateGraph DAGs, branching, loops, parallel execution, function-calling agents, and robust session
+                checkpointing for fault-tolerant recovery.
+                <br><br>
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 borderLeft">
+            <div class="service_block">
+              <div class="service_icon icon2  delay-03s animated wow zoomIn"> <span><img style="border-radius: 50%;"
+                    src="/img/tj0fgp2t.png"></span>
+              </div>
+              <h3 class="animated fadeInUp wow"> ML Platform Engineering</h3>
+              <p class="animated fadeInDown wow">Building multi-tenant ML platforms, model serving infrastructure
+                (GPU/CPU), and implementing platform security hardening for enterprise use.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 borderLeft">
+            <div class="service_block">
+              <div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><img style="border-radius: 50%;"
+                    src="/img/5iq1mt2b.png"></span>
+              </div>
+              <h3 class="animated fadeInUp wow">Data Engineering and Analytics System Design</h3>
+              <p class="animated fadeInDown wow">Designing and implementing end-to-end data ingestion, schema modeling,
+                transformation pipelines, and efficient storage for high-volume workloads.
+
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="service_block">
+              <div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><img style="border-radius: 50%;"
+                    src="/img/wfwvq8tf.png"></span>
+              </div>
+              <h3 class="animated fadeInUp wow">Cloud Architecture & GCP</h3>
+              <p class="animated fadeInDown wow">Deploying secure, scalable, and cost-optimized infrastructure on Google
+                Cloud Platform, including IAP, VPC Service Controls, Cloud Run, GKE, and IAM.
+
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 borderLeft">
+            <div class="service_block">
+              <div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><img style="border-radius: 50%;"
+                    src="/img/nntz51gw.png"></span>
+              </div>
+              <h3 class="animated fadeInUp wow">DevOps and CI/CD</h3>
+              <p class="animated fadeInDown wow">Creating reproducible CI/CD pipelines for models and data,
+                comprehensive observability with Grafana, and enabling fast, safe rollouts.
+
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 borderLeft">
+            <div class="service_block">
+              <div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><img style="border-radius: 50%;"
+                    src="/img/wopzlz8n.png"></span>
+              </div>
+              <h3 class="animated fadeInUp wow">Observability & SRE</h3>
+              <p class="animated fadeInDown wow">Reducing incident time-to-resolution with targeted telemetry. We've cut
+                RCA time from hours to minutes in production systems.
+
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 borderLeft">
+            <div class="service_block">
+              <div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><img style="border-radius: 50%;"
+                    src="/img/b71i1hff.png"></span>
+              </div>
+              <h3 class="animated fadeInUp wow">Fractional CTO / Technical Leadership</h3>
+              <p class="animated fadeInDown wow">Providing hands-on leadership to scale teams and platforms. We've
+                scaled engineering teams 5x in one year and hired key senior ICs.
+
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Service-->
+
+
+  <!--Results-->
+  <!-- - value: ">$100,000 / year"
+    description: "Saved in GCE storage costs by spearheading the segregation of disk tiers based on usage patterns at a mid-size public pharmatech company."
+  - value: "94%"
+    description: "Reduction in incident resolution time (from ~2 hours to ~5 minutes) by building comprehensive observability with Grafana and log-based metrics."
+  - value: "99%"
+    description: "Reduction in new customer provisioning time (from ~2 days to ~20 minutes) through full automation and infrastructure-as-code."
+  - value: "75k+"
+    description: "Monthly requests handled by a LangGraph-based agentic AI system for medical cohort analysis at a leading pharmatech enterprise."
+  - value: "10M+"
+    description: "Records processed daily for a B2B fitness analytics platform serving major franchises."
+  - value: "Top 5%"
+    description: "Worldwide rank in Kaggle competitions, with 5 medals (1 gold, 2 silver, 2 bronze) across multiple challenges." -->
+
+
+  <!--/Results-->
+
+
+  <!-- Portfolio -->
+  <section id="Portfolio" class="content">
+
+    <!-- Container -->
+    <div class="container portfolio_title">
+
+      <!-- Title -->
+      <h2 class="wow fadeInDown">Results & Metrics</h2>
+      <h6 class="wow fadeInDown">Quantifiable impact and proven engineering excellence.</h6>
+      <!--/Title -->
+
+    </div>
+    <!-- Container -->
+
+    <div class="container">
+      <div class="service_wrapper">
+        <div class="row">
+          <!-- This content will be dynamically generated by manage.py -->
+          <!-- Placeholder structure for one item: -->
+          <div class="col-lg-3">
+            <div class="service_block">
+              <h3 class="animated fadeInUp wow" style="font-size: 2.5em; color: #005490;">>$100K</h3>
+              <p class="animated fadeInDown wow">Saved in yearly GCE storage costs at a multi-billion-dollar public
+                pharmatech company</p>
+            </div>
+          </div>
+          <div class="col-lg-3 borderLeft">
+            <div class="service_block">
+              <h3 class="animated fadeInUp wow" style="font-size: 2.5em; color: #005490;">94%</h3>
+              <p class="animated fadeInDown wow">Reduction in incident resolution time (from ~2 hours to ~5 minutes) by
+                building comprehensive observability with Grafana and log-based metrics</p>
+            </div>
+          </div>
+          <div class="col-lg-3 borderLeft">
+            <div class="service_block">
+              <h3 class="animated fadeInUp wow" style="font-size: 2.5em; color: #005490;">99%</h3>
+              <p class="animated fadeInDown wow">Reduction in new customer provisioning time by automating user
+                provisioning and through IaC-based resource provisioning<br><br></p>
+            </div>
+          </div>
+          <div class="col-lg-3 borderLeft">
+            <div class="service_block">
+              <h3 class="animated fadeInUp wow" style="font-size: 2.5em; color: #005490;">10M+</h3>
+              <p class="animated fadeInDown wow">Records processed daily for a B2B fitness analytics platform serving
+                major franchises<br /> <br><br><br></p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/Portfolio -->
+
+  <!--client_logos-->
+
+  <section id="aboutUs"><!--Aboutus-->
+    <div class="inner_wrapper">
+      <div class="container">
+        <h2>About us</h2>
+        <div class="inner_section">
+          <div class="row">
+            <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right"><img src="img/about-img.jpg"
+                class="img-circle delay-03s animated wow zoomIn" alt=""></div>
+            <div class=" col-lg-7 col-md-7 col-sm-7 col-xs-12 pull-left">
+              <div class=" delay-01s animated fadeInDown wow animated">
+                <h3>Expertise in AI, Data, and Cloud Tech</h3><br />
+                <p>With over 15 years of experience, we specialize in key areas including complex
+                  ML/AI ecosystem development, data engineering, and analytics system design. Our expertise encompasses
+                  a range of technologies like GCP, Docker, AWS, Airflow, Redshift, PostgreSQL.
+                  <br /><br />
+                  We've built and led projects spanning AI, LLMs, machine learning, and cloud infrastructure across
+                  diverse industries including healthcare, IoT, fitness analytics, computer networking, and e-commerce.
+                  Our systems process hundreds of terabytes of data daily. We excel in CI/CD and IAC, with proficiency
+                  in
+                  Buddy, Concourse, and Terraform.
+                  <br /><br />
+                  Committed to integrating with your operations, we offer skilled engineering expertise for both
+                  short-term and long-term projects.
+                </p>
+  </section>
+  <!--Aboutus-->
+
+  <!--Footer-->
+  <footer class="footer_wrapper" id="contact">
+    <div class="container">
+      <section class="page_section contact" id="contact">
+        <div class="contact_section">
+          <h2>Get in touch</h2>
+          <div class="row">
+            <div class="col-lg-4">
+
+            </div>
+            <div class="col-lg-4">
+
+            </div>
+            <div class="col-lg-4">
+
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 wow fadeInLeft delay-06s">
+            <div class="form">
+              <input class="input-text" type="text" name="" value="Your Name *"
+                onFocus="if(this.value==this.defaultValue)this.value='';"
+                onBlur="if(this.value=='')this.value=this.defaultValue;">
+              <input class="input-text" type="text" name="" value="Your E-mail *"
+                onFocus="if(this.value==this.defaultValue)this.value='';"
+                onBlur="if(this.value=='')this.value=this.defaultValue;">
+              <textarea class="input-text text-area" cols="0" rows="0"
+                onFocus="if(this.value==this.defaultValue)this.value='';"
+                onBlur="if(this.value=='')this.value=this.defaultValue;">Your Message *</textarea>
+              <input class="input-btn" type="submit" value="send message">
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="container">
+      <div class="footer_bottom"><span>Copyright © 2025, Novaverge</span> </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
+  <script type="text/javascript" src="js/jquery.nav.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="js/jquery.isotope.js"></script>
+  <script type="text/javascript" src="js/wow.js"></script>
+  <script type="text/javascript" src="js/custom.js"></script>
+
+</body>
+
+</html>
